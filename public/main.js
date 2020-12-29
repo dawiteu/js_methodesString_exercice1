@@ -44,9 +44,19 @@ console.log(nouvelleph2);
 // exo 2 ; 
 let phph2 = "Ceci est une variable de type number"; 
 
-phph2 = phph2.replace('number','string');
+phph2 = phph2.replace('number','string>>');
 console.log(phph2);
 
+
+let phph3 = "Ceci est une variable de type NuMbEr ! Les numbers c'est trop bien Number numBer  numbeR"; 
+
+//let p3 = phph3.toLowerCase();
+
+let patt = /\b(N|n)\w+\b/g;
+
+let p3 = phph3.replace(patt, "number"); 
+
+console.log(p3);
 
 
 
